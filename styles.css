@@ -1,0 +1,142 @@
+* {
+  font-family: "Open Sans";
+}
+
+header {
+  text-align: center;
+  color: white;
+  background-image: url("img/pexels-yente-van-eynde-2403392.jpg");
+  background-size: 100% 100%;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.nama-resto {
+  font-size: 55px;
+  margin-top: -5px;
+  margin-bottom: 45px;
+}
+
+.slogan {
+  font-size: 20px;
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+nav {
+  text-align: center;
+  background-color: #075d2c;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tombol {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+}
+
+.tombol:hover {
+  background-color: #447d5d;
+  text-decoration: none;
+}
+
+section {
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.waktu-makan {
+  color: #075d2c;
+  font-size: 35px;
+}
+
+footer {
+  background-color: #075d2c;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  color: white;
+}
+
+article {
+  padding: 40px;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #447d5d;
+  border-width: 5px;
+}
+
+.list-makanan {
+  display: flex;
+  justify-content: space-around;
+}
+
+.makanan {
+  border: solid;
+  border-color: #447d5d;
+  padding: 10px;
+  list-style: none;
+}
+
+article p {
+  text-align: center;
+}
+
+.nama-makanan {
+  font-size: 22px;
+}
+
+.tipe-makanan {
+  margin-top: -15px;
+  font-size: 14px;
+}
+
+.isi-konten {
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 22px;
+  margin-right: 50px;
+}
+
+.section-bawah {
+  margin-bottom: 25px;
+}
+
+.tentang-kami {
+  display: flex;
+  justify-content: space-around;
+}
+
+.kontak {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.kontak:hover {
+  color: #075d2c;
+  text-decoration: underline;
+}
+
+.detail-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.deskripsi {
+  margin-left: 50px;
+}
+
+.pembuatan {
+  margin-left: 100px;
+}
